@@ -6,125 +6,134 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane prefHeight="1200.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
-   <left>
-      <AnchorPane prefHeight="707.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <ButtonBar layoutX="-79.0" layoutY="375.0" prefHeight="40.0" prefWidth="200.0" rotate="90.0">
-              <buttons>
-                <Button mnemonicParsing="false" text="Sit" />
-                  <Button mnemonicParsing="false" text="Leave" />
-              </buttons>
-            </ButtonBar>
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="538.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="50.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" />
-            <Label layoutY="171.0" rotate="90.0" text="Player 1" />
-         </children>
-      </AnchorPane>
-   </left>
-   <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <Button layoutX="127.0" layoutY="661.0" mnemonicParsing="false" text="Game" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="100.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="50.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="151.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="50.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="151.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" />
-         </children>
-      </AnchorPane>
-   </center>
-   <right>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <ButtonBar layoutX="80.0" layoutY="346.0" prefHeight="40.0" prefWidth="200.0" rotate="270.0" AnchorPane.rightAnchor="-80.0">
-              <buttons>
-                <Button mnemonicParsing="false" text="Sit" />
-                  <Button mnemonicParsing="false" text="Leave" />
-              </buttons>
-            </ButtonBar>
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="634.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="150.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" />
-            <Label layoutX="161.0" layoutY="584.0" rotate="-90.0" text="Player 2" />
-         </children>
-      </AnchorPane>
-   </right>
-   <bottom>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <ButtonBar layoutX="217.0" layoutY="150.0" prefHeight="40.0" prefWidth="200.0">
-              <buttons>
-                <Button mnemonicParsing="false" text="Sit" />
-                  <Button mnemonicParsing="false" text="Leave" />
-              </buttons>
-            </ButtonBar>
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="500.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="300.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="100.0" pickOnBounds="true" preserveRatio="true" />
-            <Label layoutX="86.0" layoutY="162.0" text="Player 4" />
-         </children>
-      </AnchorPane>
-   </bottom>
-   <top>
-      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
-        <items>
-          <AnchorPane minHeight="-Infinity" minWidth="0.0" prefHeight="25.0" prefWidth="700.0">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1015.0" styleClass="table-view" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="889.0">
+         <bottom>
+            <AnchorPane prefHeight="107.0" prefWidth="674.0" BorderPane.alignment="CENTER">
                <children>
-                  <MenuBar maxWidth="700.0" minWidth="-Infinity" prefWidth="700.0">
-                     <menus>
-                        <Menu mnemonicParsing="false" text="File">
-                           <items>
-                              <MenuItem mnemonicParsing="false" text="Close" />
-                           </items>
-                        </Menu>
-                        <Menu mnemonicParsing="false" text="Game">
-                           <items>
-                              <MenuItem mnemonicParsing="false" text="New Game" />
-                              <MenuItem mnemonicParsing="false" text="5 Card Draw" />
-                              <MenuItem mnemonicParsing="false" text="5 Card - Jokers" />
-                              <MenuItem mnemonicParsing="false" text="5 Card - Dueces Wild" />
-                              <MenuItem mnemonicParsing="false" text="7 Card Draw" />
-                              <MenuItem mnemonicParsing="false" text="Texas Hold'em" />
-                              <MenuItem mnemonicParsing="false" text="Omaha" />
-                           </items>
-                        </Menu>
-                     </menus>
-                  </MenuBar>
+                  <HBox layoutX="278.0" layoutY="4.0" prefHeight="100.0" prefWidth="318.0">
+                     <children>
+                        <GridPane prefHeight="100.0" prefWidth="315.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="10.0" prefWidth="94.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="221.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtP1Name" />
+                              <HBox fx:id="h1P1" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                              <ToggleButton fx:id="btnP1SitLeave" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
+                              <Label fx:id="lblP1Name" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </HBox>
                </children>
             </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         </bottom>
+         <center>
+            <AnchorPane minWidth="-Infinity" prefHeight="200.0" prefWidth="615.0" BorderPane.alignment="CENTER">
                <children>
-                  <ButtonBar layoutX="273.0" prefHeight="40.0" prefWidth="200.0" rotate="180.0">
-                     <buttons>
-                        <Button mnemonicParsing="false" text="Sit" />
-                        <Button mnemonicParsing="false" text="Leave" />
-                     </buttons>
-                  </ButtonBar>
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="600.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="500.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="400.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="300.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="200.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="100.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
-                  <Label layoutX="593.0" layoutY="20.0" rotate="180.0" text="Player 3" />
+                  <HBox layoutX="138.0" layoutY="205.0" prefHeight="173.0" prefWidth="339.0">
+                     <children>
+                        <SplitPane dividerPositions="0.436" orientation="VERTICAL" prefHeight="173.0" prefWidth="338.0" styleClass="table-view" stylesheets="@DarkTheme.css">
+                           <items>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="94.0" prefWidth="338.0" styleClass="table-view" stylesheets="@DarkTheme.css" />
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="table-view" stylesheets="@DarkTheme.css">
+                                 <children>
+                                    <Button fx:id="btnPlay" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handlePlay" stylesheets="@application.css" text="Play" textFill="#eeeeee" />
+                                    <Button fx:id="btnDraw" layoutX="89.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleDraw" text="Draw" />
+                                 </children>
+                              </AnchorPane>
+                           </items>
+                        </SplitPane>
+                     </children>
+                  </HBox>
                </children>
             </AnchorPane>
-        </items>
-      </SplitPane>
-   </top>
-</BorderPane>
+         </center>
+         <top>
+            <AnchorPane prefHeight="107.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox layoutX="286.0" layoutY="4.0" prefHeight="100.0" prefWidth="318.0">
+                     <children>
+                        <GridPane prefHeight="100.0" prefWidth="315.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="10.0" prefWidth="94.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="221.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtP1Name1" />
+                              <HBox fx:id="h1P11" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                              <ToggleButton fx:id="btnP1SitLeave1" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
+                              <Label fx:id="lblP1Name1" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox layoutX="-109.0" layoutY="155.0" prefHeight="100.0" prefWidth="318.0" rotate="90.0">
+                     <children>
+                        <GridPane prefHeight="100.0" prefWidth="315.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="10.0" prefWidth="94.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="221.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtP1Name2" />
+                              <HBox fx:id="h1P12" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                              <ToggleButton fx:id="btnP1SitLeave2" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
+                              <Label fx:id="lblP1Name2" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane maxWidth="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox layoutX="-9.0" layoutY="155.0" prefHeight="100.0" prefWidth="318.0" rotate="-90.0">
+                     <children>
+                        <GridPane prefHeight="100.0" prefWidth="315.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="10.0" prefWidth="94.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="221.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <TextField fx:id="txtP1Name3" />
+                              <HBox fx:id="h1P13" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                              <ToggleButton fx:id="btnP1SitLeave3" mnemonicParsing="false" onAction="#handleP1SitLeave" styleClass="togglebutton" text="Sit" GridPane.rowIndex="1" />
+                              <Label fx:id="lblP1Name3" prefHeight="21.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
