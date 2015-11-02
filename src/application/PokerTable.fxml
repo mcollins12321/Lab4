@@ -45,7 +45,7 @@
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="94.0" prefWidth="338.0" styleClass="table-view" stylesheets="@DarkTheme.css" />
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="table-view" stylesheets="@DarkTheme.css">
                                  <children>
-                                    <Button fx:id="btnPlay" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handlePlay" stylesheets="@application.css" text="Play" textFill="#eeeeee" />
+                                    <Button fx:id="btnPlay" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handlePlay" text="Play" />
                                     <Button fx:id="btnDraw" layoutX="89.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleDraw" text="Draw" />
                                  </children>
                               </AnchorPane>
